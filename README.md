@@ -8,8 +8,6 @@ To implement  D flipflop using verilog and validating their functionality using 
 
 Quartus prime
 
-**THEORY**
-
 **D Flip-Flop**
 
 D flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, D latch operates with enable signal. That means, the output of D flip-flop is insensitive to the changes in the input, D except for active transition of the clock signal. The circuit diagram of D flip-flop is shown in the following figure.
@@ -56,11 +54,11 @@ always @ (negedge Clock)// use negative edge clock for triggereing condition
 	    Q<=D;
  endmodule
 ```
-**RTL LOGIC FOR FLIPFLOPS**
+**RTL Schematics:**
 ![exp8 output2](https://github.com/CynthiaMehul/D-FLIPDLOP-NEGEDGE/assets/150319444/91810ca0-fac2-4a9a-907b-08b9ba26fc5f)
 
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+**Waveform:**
 ![exp8 output1](https://github.com/CynthiaMehul/D-FLIPDLOP-NEGEDGE/assets/150319444/ea66dc60-33b5-431f-9d0f-cf71a1aa10f4)
 
 
